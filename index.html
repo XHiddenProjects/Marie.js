@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MARIE.js</title>
+    </head>
+    <body>
+        <script src="./marie.js"></script>
+        <script>
+            const MARIE = new MarieJS({
+                errorLogging: true
+            });
+            const program = [
+                MARIE.ins.INPUT(), //Input
+                MARIE.ins.STORE(0), //Store in memory[0]
+                MARIE.ins.INPUT(), //Input
+                MARIE.ins.STORE(1), //Store in memory[1]
+                MARIE.ins.ADD(0), //Add from memory[0]
+                MARIE.ins.STORE(0), //Store in memory[0]
+                MARIE.ins.INPUT(), //Input
+                MARIE.ins.STORE(2), //Store in memory[2]
+                MARIE.ins.LOAD(0), //Load from memory[0]
+                MARIE.ins.SUBTRACT(2), //Subtract from memory[2]
+                MARIE.ins.STORE(0), //Store in memory[0]
+                MARIE.ins.OUTPUT(), //Output from memory[0]
+            ];
+            MARIE.assemble(program);
+            MARIE.run();
+            console.log(MARIE.getLogging())
+        </script>
+    </body>
+</html>
