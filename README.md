@@ -2,6 +2,9 @@
 A JavaScript library for [MARIE-js/MARIE.js](https://github.com/MARIE-js/MARIE.js)
 
 ## Start up
+```html
+<script src="./marie.min.js"></script>
+```
 To start up the code
 ```js
 // You do not need to use any configurations
