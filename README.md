@@ -3,6 +3,19 @@ A JavaScript library for [MARIE-js/MARIE.js](https://github.com/MARIE-js/MARIE.j
 
 [Online Demo](https://jsfiddle.net/7h18dz56/)
 
+## Table of contents
+* [Start up](#start-up)
+* [Assemble](#assemble-your-instructions)
+* [Running](#running-your-instructions)
+* [Programs](#adding-programs)
+* [Logging](#logging)
+* [Debugging](#debugging)
+* [Outputs](#formatting-outputs)
+* [Errors](#errors)
+
+
+
+
 
 ## Start up
 ```html
@@ -31,7 +44,7 @@ To run your instructions, use this code
 ```js
 MARIE.run();
 ```
-## Adding program
+## Adding programs
 You can use our methods to render programs without knowing the binary source. **Note: This goes inside the `const program = [...]`**
 
 | Instruction | Function | Prameters | Description |
@@ -73,7 +86,7 @@ const MARIE = new MarieJS({
 });
 ```
 
-## Error
+## Errors
 To enable error logging
 
 ```js
