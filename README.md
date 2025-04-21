@@ -1,7 +1,7 @@
 # Marie.js
 A JavaScript library for [MARIE-js/MARIE.js](https://github.com/MARIE-js/MARIE.js)
 
-[Online Demo](https://jsfiddle.net/7h18dz56/)
+[Online Demo](https://jsfiddle.net/tyzLd8jh/)
 
 ## Table of contents
 * [Start up](#start-up)
