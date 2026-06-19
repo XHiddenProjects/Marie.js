@@ -2,7 +2,7 @@
 
 A vanilla JavaScript library for simulating the MARIE educational computer architecture in the browser.
 
-[Online Demo](https://jsfiddle.net/tyzLd8jh/)
+[Online Demo](https://jsfiddle.net/zk1eaf5y/)
 
 ## Table of contents
 
